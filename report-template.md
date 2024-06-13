@@ -5,10 +5,16 @@
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
 * Explain the purpose of the analysis.
+- To create and evaluate machine learning models with imbalanced and balanced datasets to predict whether a loan is classified correctly as healthy or high-risk
 * Explain what financial information the data was on, and what you needed to predict.
+- historical lending activity
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+- the target variable, loan status. In the original dataset, this was highly imbalanced. 
 * Describe the stages of the machine learning process you went through as part of this analysis.
+- prep the data, split the data, train on imbalanced data, eval original data model
+- repeat process but balance the data first
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+- LogisticRegression class and RandomOverSampler were used
 
 ## Results
 
